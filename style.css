@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+#text-style {
+    color: #E55473;
+}
+
+#text-style.text-style-white {
+    color: #FFFFFF;
+}
+
 .btn-main {
     color: #FFF;
     font-size: 20px;
@@ -48,13 +56,51 @@ header {
     font-size: 60px;
     font-weight: 800;
 }
-.header-paragraph-style{
+
+.header-paragraph-style {
     text-align: left;
 }
+
 img {
     height: auto;
     width: 50%;
 }
+
+/* Feature Section */
+.feature-content {
+    text-align: center;
+}
+
+.feature-gallery {
+    display: flex;
+    gap: 5%;
+    margin: 5% 10%;
+}
+
+.feature-gallery>img {
+    width: fit-content;
+    background-color: rgba(71, 125, 17, 0.15);
+    border: none;
+    border-radius: 5em 5em 0 0;
+}
+
+.feature-gallery>img {
+    width: fit-content;
+    background-color: rgba(5, 151, 160, 0.15);
+    border: none;
+    border-radius: 5em 5em 0 0;
+}
+
+.feature-gallery>img {
+    width: fit-content;
+    background-color: rgba(167, 33, 98, 0.15);
+    border: none;
+    border-radius: 5em 5em 0 0;
+}
+
+
+
+
 
 /* Hot Deal Section */
 
@@ -68,43 +114,64 @@ img {
     padding: 0 15%;
 }
 
-.hot-deal-content span {
-    color: #E55473;
+.hot-deal-content {
+    text-align: center;
 }
-.hot-deal-img{
+
+.hot-deal-img {
     height: auto;
     width: 50%;
 }
 
 /* Instagram Section */
 
-.social-media{
+.social-media {
     margin: 5% 10%;
 }
-.instagram{
+
+.instagram {
     text-align: center;
     margin-bottom: 5%;
 }
-.insta-pic{
+
+.insta-pic {
     display: flex;
     justify-content: space-around;
 }
-.insta-pic>img{
+
+.insta-pic>img {
     height: auto;
     width: 22%;
 }
 
 /* Newsletter */
-.newsletter{
+.newsletter {
     background: url('Flower Asset/Rectangle 9.png') no-repeat;
     text-align: center;
     margin-top: 10%;
     padding: 5%;
 }
 
-input{
+input {
     inline-size: 40%;
     height: 2em;
     border: none;
     border-radius: 0.3em;
+}
+
+/* Footer */
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 5% 0;
+}
+
+footer>p {
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+}
+
+footer>h5 {
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
 }
