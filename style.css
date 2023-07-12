@@ -69,38 +69,66 @@ img {
 /* Feature Section */
 .feature-content {
     text-align: center;
+    margin-top: 5%;
+}
+
+.feature-gallery-bgcolor1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.feature-gallery-bgcolor2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.feature-gallery-bgcolor3 {
+    background-color: rgba(71, 125, 17, 0.15);
 }
 
 .feature-gallery {
     display: flex;
     gap: 5%;
-    margin: 5% 10%;
+    margin: 5% 10% 0 10%;
+    text-align: center;
+    justify-content: space-around;
 }
 
-.feature-gallery>img {
-    width: fit-content;
-    background-color: rgba(71, 125, 17, 0.15);
+.feature-gallery img {
+    height: 70%;
+    width: 350px;
     border: none;
-    border-radius: 5em 5em 0 0;
+    border-radius: 10em 10em 0 0;
 }
 
-.feature-gallery>img {
+.feature-gallery h4 {
+    color: #272727;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
+/* Service Section */
+.service-section {
+    display: flex;
+    gap: 10%;
+    margin: 0 10% 5% 10%;
+    padding: 5%;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.service-section img {
+    height: auto;
     width: fit-content;
-    background-color: rgba(5, 151, 160, 0.15);
-    border: none;
-    border-radius: 5em 5em 0 0;
-}
-
-.feature-gallery>img {
-    width: fit-content;
-    background-color: rgba(167, 33, 98, 0.15);
-    border: none;
-    border-radius: 5em 5em 0 0;
 }
 
 
-
-
+.service-section h3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 1em;
+    font-weight: 600;
+}
 
 /* Hot Deal Section */
 
@@ -111,7 +139,7 @@ img {
     align-items: center;
     height: 100%;
     width: auto;
-    padding: 0 15%;
+    padding: 5% 15%;
 }
 
 .hot-deal-content {
@@ -159,11 +187,45 @@ input {
     border-radius: 0.3em;
 }
 
+/* Review section */
+.customer-section-title {
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.customer-review-container {
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+    margin: 3% 10%;
+    border-radius: 10px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.customer-review {
+    height: auto;
+    width: 40%;
+}
+
+.customer-review p {
+    text-align: justify;
+}
+
+.review-star-container {
+    display: flex;
+}
+
+.review-star-container img {
+    height: 30px;
+    width: 30px;
+}
+
 /* Footer */
 footer {
     background-color: #111010;
     text-align: center;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 footer>p {
